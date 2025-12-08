@@ -1,4 +1,4 @@
-<img width="161" height="27" alt="image" src="https://github.com/user-attachments/assets/f41fc532-4be6-4a53-a01c-0379b15ec2ba" /># Tablas de Verdad, Mapas de Karnaugh y Expresiones 
+# Tablas de Verdad, Mapas de Karnaugh y Expresiones 
 
 Este documento contiene:
 - Tablas de verdad de segmentos `a–g`
