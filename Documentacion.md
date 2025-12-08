@@ -15,12 +15,14 @@
 
 **Integrantes:**
 
-* Cristofer Eduardo Nova Aguirre
-* (Agregar nombres adicionales del grupo)
+* Cristofer Eduardo Nova Aguirre Carne:2842042262204
+* Cristopher Alberto León España Carne:2471454672001
+* Saúl Andrés Monroy Marroquín Carne:2472832662001
+* Jose Gustavo Alvarez Sequen Carne:2472540102001
 
 **Catedrático:**
 
-* (Nombre del catedrático)
+* Dilan Conaher Suy Miranda
 
 **Repositorio GitHub:**
 `ORGA_G7_DIC2025`
@@ -80,7 +82,7 @@ El circuito recibe entradas digitales que corresponden a un carácter y genera s
 
 * Entradas → Lógica combinacional → Displays frontal y trasero.
 
-> (Agregar diagrama en `/documentacion/diagramas/`)
+> (Agregar diagrama en `/documentacion/diagramas/`
 
 ---
 
