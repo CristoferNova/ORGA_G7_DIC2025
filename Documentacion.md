@@ -122,13 +122,14 @@ Z = bit más significativo (MSB)
 ### 8.1 Cátodo común — SOP (Términos Mínimos)
 
 ```
-a = W + Y + (X·Z) + (X'·Z')
-b = X' + (Y·Z) + (Y'·Z')
-c = X + Z + Y'
-d = W + (Y·X') + (Y·Z') + (X'·Z') + (X·Z·Y')
-e = (Y·Z') + (X'·Z')
-f = W + (X·Y') + (X·Z') + (Y'·Z')
-g = W + (X·Y') + (Y·X') + (Y·Z')
+a= w'x'
+b= w'x'y' + w'x'z	b= w'x'(y'+z)	
+c= w'x'z
+d=  w'x'z + w'x'y		d= w'x'(y+z)	
+e=w'x' 	mismo que el a	
+f=w'x'z' 
+g= w'x'y' + w'x'z		g=w'x'(y'+z)		mismo que el b
+
 ```
 
 ### 8.2 Ánodo común — POS (Términos Máximos)
