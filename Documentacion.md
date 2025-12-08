@@ -173,6 +173,10 @@ Ruta sugerida:
 * Se emplearon ICs TTL 74xx.
 * Alimentación de **5 V DC**.
 * Distribución ordenada de señales, Vcc y GND.
+![Imagen de WhatsApp 2025-12-08 a las 16 37 03_7fbdf1dc](https://github.com/user-attachments/assets/4f6e5da2-16c2-4be3-949a-7be1d4709a76)
+![Imagen de WhatsApp 2025-12-07 a las 16 17 29_84d48281](https://github.com/user-attachments/assets/b00648e7-ac4b-4f17-b02f-921b488fd801)
+![Imagen de WhatsApp 2025-12-08 a las 16 37 03_dfc89f8e](https://github.com/user-attachments/assets/367820e0-8f44-4829-87f6-d69aaf6d8a08)
+![Imagen de WhatsApp 2025-12-07 a las 16 18 00_aa408bf0](https://github.com/user-attachments/assets/c48abde2-caff-431f-afd7-2ae408fd5998)
 
 > (Agregar fotografías en `/fotos_montaje/`)
 
@@ -220,7 +224,9 @@ Ruta sugerida:
 
 * `/simulacion/Practica1_G7.pdsprj`
 * `/documentacion/imagenes/`
-* `/fotos_montaje/`
+* <img width="605" height="606" alt="image" src="https://github.com/user-attachments/assets/3d089b6b-bf1f-4341-98ca-a3673373b9a0" />
+<img width="869" height="548" alt="image" src="https://github.com/user-attachments/assets/d42f565c-16d2-4be0-a90c-794fcdf56712" />
+
 * `/video/enlace_video.txt`
 
 ---
