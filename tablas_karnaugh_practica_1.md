@@ -1,4 +1,4 @@
-# Tablas de Verdad, Mapas de Karnaugh y Expresiones
+# Tablas de Verdad, Mapas de Karnaugh y Expresiones 
 
 Este documento contiene:
 - Tablas de verdad de segmentos `a–g`
@@ -10,15 +10,15 @@ Este documento contiene:
 
 Entradas:
 ```
-A = bit menos significativo (LSB)
-B = siguiente bit
-C = siguiente bit
-D = bit más significativo (MSB)
+W = bit menos significativo (LSB)
+X = siguiente bit
+Y = siguiente bit
+Z = bit más significativo (MSB)
 ```
 
 Índice de minterm:
 ```
-index = A + 2B + 4C + 8D
+index = W + 2X + 4Y + 8Z
 ```
 
 Formato decimal para BCD:
@@ -39,7 +39,7 @@ Valores 10–15 se toman como **don't care (X)**.
 Minterms = `0,2,3,5,6,7,8,9`
 
 ```
-D C B A | a
+Z Y X W | a
 0 0 0 0 | 1
 0 0 0 1 | 0
 0 0 1 0 | 1
@@ -57,7 +57,7 @@ otros  (10–15) | X
 Minterms = `0,1,2,3,4,7,8,9`
 
 ```
-D C B A | b
+Z Y X W | b
 0 0 0 0 | 1
 0 0 0 1 | 1
 0 0 1 0 | 1
@@ -73,7 +73,7 @@ otros | X
 Minterms = `0,1,3,4,5,6,7,8,9`
 
 ```
-D C B A | c
+Z Y X W | c
 0 0 0 0 | 1
 0 0 0 1 | 1
 0 0 1 1 | 1
@@ -90,7 +90,7 @@ otros | X
 Minterms = `0,2,3,5,6,8,9`
 
 ```
-D C B A | d
+Z Y X W | d
 0 0 0 0 | 1
 0 0 1 0 | 1
 0 0 1 1 | 1
@@ -105,7 +105,7 @@ otros | X
 Minterms = `0,2,6,8`
 
 ```
-D C B A | e
+Z Y X W | e
 0 0 0 0 | 1
 0 0 1 0 | 1
 0 1 1 0 | 1
@@ -117,7 +117,7 @@ otros | X
 Minterms = `0,4,5,6,8,9`
 
 ```
-D C B A | f
+Z Y X W | f
 0 0 0 0 | 1
 0 1 0 0 | 1
 0 1 0 1 | 1
@@ -131,7 +131,7 @@ otros | X
 Minterms = `2,3,4,5,6,8,9`
 
 ```
-D C B A | g
+Z Y X W | g
 0 0 1 0 | 1
 0 0 1 1 | 1
 0 1 0 0 | 1
@@ -148,9 +148,9 @@ otros | X
 ## Segmento **a**
 
 ```
-      BC
+      XY
      00 01 11 10
-D A +----------------
+Z W +----------------
 0 0 | 1  0  1  0
 0 1 | 0  1  1  0
 1 0 | 1  X  X  X
@@ -161,9 +161,9 @@ D A +----------------
 ## Segmento **b**
 
 ```
-      BC
+      XY
      00 01 11 10
-D A +----------------
+Z W +----------------
 0 0 | 1  1  1  0
 0 1 | 0  0  0  1
 1 0 | 1  X  X  X
@@ -174,9 +174,9 @@ D A +----------------
 ## Segmento **c**
 
 ```
-      BC
+      XY
      00 01 11 10
-D A +----------------
+Z W +----------------
 0 0 | 1  1  1  0
 0 1 | 0  0  0  1
 1 0 | 1  X  X  X
@@ -187,9 +187,9 @@ D A +----------------
 ## Segmento **d**
 
 ```
-      BC
+      XY
      00 01 11 10
-D A +----------------
+Z W +----------------
 0 0 | 1  0  1  0
 0 1 | 0  1  1  0
 1 0 | 1  X  X  X
@@ -200,9 +200,9 @@ D A +----------------
 ## Segmento **e**
 
 ```
-      BC
+      XY
      00 01 11 10
-D A +----------------
+Z W +----------------
 0 0 | 1  0  0  0
 0 1 | 0  0  0  0
 1 0 | 1  X  X  X
@@ -213,9 +213,9 @@ D A +----------------
 ## Segmento **f**
 
 ```
-      BC
+      XY
      00 01 11 10
-D A +----------------
+Z W +----------------
 0 0 | 1  0  0  0
 0 1 | 1  1  0  0
 1 0 | 1  X  X  X
@@ -226,9 +226,9 @@ D A +----------------
 ## Segmento **g**
 
 ```
-      BC
+      XY
      00 01 11 10
-D A +----------------
+Z W +----------------
 0 0 | 0  0  1  0
 0 1 | 1  1  1  0
 1 0 | 1  X  X  X
@@ -240,31 +240,25 @@ D A +----------------
 
 ## Cátodo común — **SOP (términos mínimos)**
 ```
-a = A + C + (B·D) + (B'·D')
-b = B' + (C·D) + (C'·D')
-c = B + D + C'
-d = A + (C·B') + (C·D') + (B'·D') + (B·D·C')
-e = (C·D') + (B'·D')
-f = A + (B·C') + (B·D') + (C'·D')
-g = A + (B·C') + (C·B') + (C·D')
+a = W + Y + (X·Z) + (X'·Z')
+b = X' + (Y·Z) + (Y'·Z')
+c = X + Z + Y'
+d = W + (Y·X') + (Y·Z') + (X'·Z') + (X·Z·Y')
+e = (Y·Z') + (X'·Z')
+f = W + (X·Y') + (X·Z') + (Y'·Z')
+g = W + (X·Y') + (Y·X') + (Y·Z')
 ```
 
 ---
 ## Ánodo común — **POS (términos máximos)**
 ```
-a = A' · C' · (B + D) · (B' + D')
-b = B · (C + D) · (C' + D')
-c = C · B' · D'
-d = A' · (B + D) · (B + C') · (D + C') · (C + B' + D')
-e = (B + D) · (D + C')
-f = A' · (C + D) · (C + B') · (D + B')
-g = A' · (B + C') · (C + B') · (D + C')
+a = W' · Y' · (X + Z) · (X' + Z')
+b = X · (Y + Z) · (Y' + Z')
+c = Y · X' · Z'
+d = W' · (X + Z) · (X + Y') · (Z + Y') · (Y + X' + Z')
+e = (X + Z) · (Z + Y')
+f = W' · (Y + Z) · (Y + X') · (Z + X')
+g = W' · (X + Y') · (Y + X') · (Z + Y')
 ```
 
 ---
-# Listo para incluir en el informe
-
-Puedes copiar/pegar este contenido directamente en tu documento o exportarlo a PDF junto con imágenes.
-
-Si deseas que genere **los mapas como imagen (.png)** para subir a la carpeta `/documentacion/imagenes/`, indícame 👍
-
