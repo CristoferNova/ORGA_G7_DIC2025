@@ -185,12 +185,12 @@ Ruta sugerida:
 
 | Componente               | Cantidad | Precio Unitario |       Total |
 | ------------------------ | -------: | --------------: | ----------: |
-| Protoboard               |        1 |          Q35.00 |      Q35.00 |
+| Protoboard               |        2 |          Q35.00 |      Q70.00 |
 | IC TTL 74xx              |        6 |          Q10.00 |      Q60.00 |
 | Resistencias 220 Ω       |       20 |           Q0.50 |      Q10.00 |
-| Displays 7 Seg.          |        2 |          Q15.00 |      Q30.00 |
-| Cableado                 |        1 |          Q10.00 |      Q10.00 |
-| **Costo Total Estimado** |          |                 | **Q145.00** |
+| Displays 7 Seg(Anodo Y Catodo).          |        2 |          Q15.00 |      Q30.00 |
+| Cableado UTP               |        1 |          Q58.50 |      Q58.50 |
+| **Costo Total Estimado** |          |                 | **Q228.00** |
 
 ---
 
@@ -198,10 +198,10 @@ Ruta sugerida:
 
 | Integrante     | Aporte                                 |
 | -------------- | -------------------------------------- |
-| Cristofer Nova | Diseño PCB, protoboard y documentación |
-| Integrante 2   | Mapas Karnaugh y funciones booleanas   |
-| Integrante 3   | Simulación en Proteus                  |
-| Integrante 4   | Video explicativo y presupuesto        |
+| Cristofer Eduardo Nova Aguirre | protoboard y documentación |
+| Cristopher Alberto LeónEspaña   | Mapas Karnaugh y funciones booleanas   |
+| Saúl Andrés Monroy Marroquín   | Simulación en Proteus                  |
+| Jose Gustavo Alvarez Sequen   | Video explicativo y presupuesto        |
 
 ---
 
