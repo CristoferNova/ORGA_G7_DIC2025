@@ -11,7 +11,7 @@
 
 ---
 
-## Carátula
+## 1. Carátula
 
 **Integrantes:**
 
@@ -29,10 +29,12 @@
 
 ## 2. Introducción
 
-Este informe presenta el diseño, simulación e implementación física de un sistema visualizador de **7 segmentos bidireccional**, el cual permite mostrar una palabra personalizada de cuatro caracteres tanto en modo **normal** como en **espejo**, utilizando dos tipos de display:
+Este informe presenta el diseño, simulación e implementación física de un sistema visualizador de **7 segmentos bidireccional**, el cual permite mostrar una palabra personalizada de cuatro caracteres tanto en modo **normal** como en **espejo**.
+
+Se utilizan dos tipos de display:
 
 * **Cátodo común:** controlado mediante términos mínimos.
-* **Ánodo común:** controlado mediante términos máximos invertidos.
+* **Ánodo común:** controlado mediante términos máximos.
 
 El proyecto integra conceptos de lógica combinacional, mapas de Karnaugh, compuertas TTL, simulación electrónica con Proteus y montaje físico sobre protoboard.
 
@@ -72,13 +74,13 @@ Este proyecto incluye:
 
 ### 5.1 Descripción General
 
-El circuito recibe entradas digitales que corresponden a un carácter y genera señales que activan los segmentos del display. Se utiliza la tecnología TTL (74xx) para construir las compuertas lógicas.
+El circuito recibe entradas digitales que corresponden a un carácter y genera señales que activan los segmentos del display. Se utiliza tecnología TTL (74xx) para construir las compuertas lógicas.
 
 ### 5.2 Diagrama de Bloques
 
-* Entradas binarias → Módulo lógico → Displays 7 segmentos.
+* Entradas → Lógica combinacional → Displays frontal y trasero.
 
-> (Agregar imagen del diagrama en `/documentacion/diagramas/`)
+> (Agregar diagrama en `/documentacion/diagramas/`)
 
 ---
 
@@ -86,9 +88,9 @@ El circuito recibe entradas digitales que corresponden a un carácter y genera s
 
 Las tablas de verdad completas por segmento se encuentran documentadas en el archivo correspondiente.
 
-Resumen de ejemplo:
+Ejemplo:
 
-| D   | C   | B   | A   | Segmento a |
+| Z   | Y   | X   | W   | Segmento a |
 | --- | --- | --- | --- | :--------: |
 | 0   | 0   | 0   | 0   |      1     |
 | 0   | 0   | 0   | 1   |      0     |
@@ -100,36 +102,43 @@ Resumen de ejemplo:
 
 Para cada segmento (a–g), se desarrolló un mapa de Karnaugh con los **minterms** correspondientes. Se usaron posiciones 10–15 como **don’t care** para optimización.
 
-Los mapas (ASCII) se encuentran en el documento asociado y pueden visualizarse como imágenes.
-
-> (Opcional: incluir PNGs en `/documentacion/imagenes/`)
+> Los mapas pueden incluirse como imágenes PNG o ASCII.
 
 ---
 
 ## 8. Funciones Booleanas Simplificadas
 
-### 8.1 Cátodo Común — SOP (Términos Mínimos)
+### Notación utilizada para variables
 
 ```
-a = A + C + (B·D) + (B'·D')
-b = B' + (C·D) + (C'·D')
-c = B + D + C'
-d = A + (C·B') + (C·D') + (B'·D') + (B·D·C')
-e = (C·D') + (B'·D')
-f = A + (B·C') + (B·D') + (C'·D')
-g = A + (B·C') + (C·B') + (C·D')
+W = bit menos significativo (LSB)
+X = siguiente bit
+Y = siguiente bit
+Z = bit más significativo (MSB)
 ```
 
-### 8.2 Ánodo Común — POS (Términos Máximos)
+### 8.1 Cátodo común — SOP (Términos Mínimos)
 
 ```
-a = A' · C' · (B + D) · (B' + D')
-b = B · (C + D) · (C' + D')
-c = C · B' · D'
-d = A' · (B + D) · (B + C') · (D + C') · (C + B' + D')
-e = (B + D) · (D + C')
-f = A' · (C + D) · (C + B') · (D + B')
-g = A' · (B + C') · (C + B') · (D + C')
+a = W + Y + (X·Z) + (X'·Z')
+b = X' + (Y·Z) + (Y'·Z')
+c = X + Z + Y'
+d = W + (Y·X') + (Y·Z') + (X'·Z') + (X·Z·Y')
+e = (Y·Z') + (X'·Z')
+f = W + (X·Y') + (X·Z') + (Y'·Z')
+g = W + (X·Y') + (Y·X') + (Y·Z')
+```
+
+### 8.2 Ánodo común — POS (Términos Máximos)
+
+```
+a = W' · Y' · (X + Z) · (X' + Z')
+b = X · (Y + Z) · (Y' + Z')
+c = Y · X' · Z'
+d = W' · (X + Z) · (X + Y') · (Z + Y') · (Y + X' + Z')
+e = (X + Z) · (Z + Y')
+f = W' · (Y + Z) · (Y + X') · (Z + X')
+g = W' · (X + Y') · (Y + X') · (Z + Y')
 ```
 
 ---
@@ -140,10 +149,10 @@ g = A' · (B + C') · (C + B') · (D + C')
 
 El archivo `.pdsprj` contiene todo el circuito consolidado.
 
-Ruta sugerida en repositorio:
+Ruta sugerida:
 
 ```
-https://github.com/CristoferNova/ORGA_G7_DIC2025/blob/main/Practica1_Grupo7.pdsprj
+/simulacion/Practica1_G7.pdsprj
 ```
 
 ### 9.2 Resultados
@@ -211,7 +220,6 @@ https://github.com/CristoferNova/ORGA_G7_DIC2025/blob/main/Practica1_Grupo7.pdsp
 * `/video/enlace_video.txt`
 
 ---
-
 
 
 
