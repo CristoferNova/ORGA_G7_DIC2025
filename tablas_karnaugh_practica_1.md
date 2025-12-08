@@ -148,13 +148,14 @@ otros | X
 ## Segmento **a**
 
 ```
-      XY
-     00 01 11 10
-Z W +----------------
-0 0 | 1  0  1  0
-0 1 | 0  1  1  0
-1 0 | 1  X  X  X
-1 1 | 1  X  X  X
+	YZ			
+		00	01	11	10
+WX	00	1	1	1	1
+	01	0	0	0	0
+	11	0	0	0	0
+	10	0	0	0	0
+<img width="481" height="162" alt="image" src="https://github.com/user-attachments/assets/87aaa439-af9b-43b0-9e2f-553bb2604bb2" />
+
 ```
 
 ---
