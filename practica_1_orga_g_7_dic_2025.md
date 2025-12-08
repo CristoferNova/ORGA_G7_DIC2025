@@ -143,7 +143,7 @@ El archivo `.pdsprj` contiene todo el circuito consolidado.
 Ruta sugerida en repositorio:
 
 ```
-/simulacion/Practica1_G7.pdsprj
+https://github.com/CristoferNova/ORGA_G7_DIC2025/blob/main/Practica1_Grupo7.pdsprj
 ```
 
 ### 9.2 Resultados
