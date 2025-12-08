@@ -135,13 +135,14 @@ g= w'x'y' + w'x'z		g=w'x'(y'+z)		mismo que el b
 ### 8.2 Ánodo común — POS (Términos Máximos)
 
 ```
-a = W' · Y' · (X + Z) · (X' + Z')
-b = X · (Y + Z) · (Y' + Z')
-c = Y · X' · Z'
-d = W' · (X + Z) · (X + Y') · (Z + Y') · (Y + X' + Z')
-e = (X + Z) · (Z + Y')
-f = W' · (Y + Z) · (Y + X') · (Z + X')
-g = W' · (X + Y') · (Y + X') · (Z + Y')
+a= (w+x)
+b= (w+x+z)
+c= (w + x)	igual que el a	
+d= (w + x + z')(w + x + y')			d=(x + w) + z'y'	
+e= (w + x + z')	
+f= (w + x + y)(w + x + z')			f=(w + x) + yz'	
+g= (w + x + y)(w + x + z')			f=(w + x) + yz'		Igual a la f
+
 ```
 
 ---
