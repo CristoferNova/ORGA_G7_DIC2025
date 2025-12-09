@@ -428,7 +428,7 @@ Ruta sugerida:
    <img width="605" height="606" alt="image" src="https://github.com/user-attachments/assets/3d089b6b-bf1f-4341-98ca-a3673373b9a0" />
 <img width="869" height="548" alt="image" src="https://github.com/user-attachments/assets/d42f565c-16d2-4be0-a90c-794fcdf56712" />
 
-* `/video/enlace_video.txt`
+* `https://youtu.be/_VOFWWfjLcg`
 
 ---
 
