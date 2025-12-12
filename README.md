@@ -1,5 +1,5 @@
 # ORGA_G7_DIC2025
-Repositorio correspondiente para subir la practica no.1 del grupo 7 de laboratorio de Organización Computacional
+Repositorio correspondiente para subir las practicas del grupo 7 de laboratorio de Organización Computacional
 
 ## Integrantes
 
