@@ -4,7 +4,7 @@
 
 **Asignatura:** Ingeniería en Ciencias y Sistemas
 
-**Práctica:** ORGA_G#_DIC2025 — SISTEMA DE MONITOREO AMBIENTAL
+**Práctica 2:** SISTEMA DE MONITOREO AMBIENTAL
 
 **Integrantes:**
 
