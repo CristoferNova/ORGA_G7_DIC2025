@@ -123,7 +123,7 @@ El código desarrollado en Arduino se encarga de:
 El archivo correspondiente se encuentra en:
 
 ```
-Practica2/Practica2_G7_ArduinoIDE/Practica2_G7/Practica2_G7.ino
+Practica2/Practica2_G7_ArduinoIDE
 ```
 
 ---
@@ -131,11 +131,11 @@ Practica2/Practica2_G7_ArduinoIDE/Practica2_G7/Practica2_G7.ino
 ### 4.4 Dashboard en Processing
 Se desarrolló un dashboard en Processing que recibe los datos enviados por Arduino mediante el puerto serial y los presenta gráficamente en tiempo real, permitiendo una interpretación clara de las variables ambientales.
 
-**Capturas del dashboard:**
+**Capturas del dashboard y Processing:**
 
-![Dashboard 1](Practica2/Processing_Y_Capturas/Capturas/Captura de pantalla 2025-12-13 152515.png)  
-![Dashboard 2](Practica2/Processing_Y_Capturas/Capturas/Captura de pantalla 2025-12-13 152544.png)  
-![Dashboard 3](Practica2/Processing_Y_Capturas/Capturas/Captura de pantalla 2025-12-13 161620.png)
+```
+Practica2/Practica2_G7_ArduinoIDE
+```
 
 ---
 
