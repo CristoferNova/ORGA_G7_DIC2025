@@ -15,7 +15,7 @@
 
 **Profesor:** Nombre del Catedrático
 
-**Fecha de entrega:** 16 de diciembre de 2025
+**Fecha:** 16 de diciembre de 2025
 
 ---
 ## 1. Introducción
