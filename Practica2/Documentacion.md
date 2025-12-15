@@ -96,8 +96,6 @@ El montaje físico del sistema se realizó utilizando una protoboard, un Arduino
 
 **Evidencias del montaje físico:**
 
-Practica2/MontajeFisico_Fotos
-
 ```
 Practica2/MontajeFisico_Fotos
 ```
