@@ -151,17 +151,17 @@ Todas las evidencias del proyecto, incluyendo código fuente, imágenes del mont
 
 ## 7.Tabla de componentes y presupuesto estimado (ejemplo)
 
-| Componente           | Cantidad | Precio estimado (GTQ) | Observaciones                                  |
-| -------------------- | -------: | --------------------: | ---------------------------------------------- |
-| Arduino Uno R3       |        1 |                120.00 | Si usan Nano puede ser más barato              |
-| DHT11                |        1 |                 35.00 | DHT22 = mayor precisión (~80 GTQ)              |
-| LDR (GL5528)         |        1 |                 10.00 |                                                |
-| Resistencias 220Ω    |        3 |                  1.50 | paquete                                        |
-| Resistencia 10kΩ     |        1 |                  0.80 |                                                |
-| LEDs (RGB separados) |        3 |                  3.00 |                                                |
-| Buzzer piezo         |        1 |                  8.00 |                                                |
-| Protoboard + cables  |        1 |                 60.00 |                                                |
-| **Total (estimado)** |          |            **238.30** | Valores aproximados — verificar mercado local. |
+| Componente           | Cantidad | Precio estimado (GTQ) | 
+| -------------------- | -------: | --------------------: | 
+| Arduino mega         |        1 |                250.00 |              
+| DHT11                |        1 |                 30.00 |              
+| LDR (GL5528)         |        1 |                 10.00 |                                                
+| Resistencias 220Ω    |        3 |                  1.50 |                                         
+| Resistencia 10kΩ     |        1 |                  0.80 |                                                
+| LEDs (RGB separados) |        3 |                  3.00 |                                                
+| Buzzer piezo         |        1 |                  8.00 |                                                
+| Protoboard + cable UTP|       1 |                 60.00 |                                                
+| **Total (estimado)** |          |            **363.30** |                                               
 
 ---
 
@@ -169,10 +169,10 @@ Todas las evidencias del proyecto, incluyendo código fuente, imágenes del mont
 
 | Integrante     | Aporte                                 |
 | -------------- | -------------------------------------- |
-| Cristofer Eduardo Nova Aguirre | protoboard y documentación |
-| Cristopher Alberto LeónEspaña   | Mapas Karnaugh y funciones booleanas   |
-| Saúl Andrés Monroy Marroquín   | Simulación en Proteus                  |
-| Jose Gustavo Alvarez Sequen   | Video explicativo y presupuesto        |
+| Cristofer Eduardo Nova Aguirre | Simulacion en TinkerCAD y documentación |
+| Cristopher Alberto LeónEspaña   | Montaje Fisico y Compra de Componentes  |
+| Saúl Andrés Monroy Marroquín   | Codigo Arduino(.ino) y Codigo en Processing|
+| Jose Gustavo Alvarez Sequen   | Video explicativo y presupuesto|
 
 ---
 
