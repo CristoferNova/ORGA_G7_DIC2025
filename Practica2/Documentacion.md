@@ -109,7 +109,7 @@ Antes del montaje físico, el circuito fue simulado en TinkerCAD con el fin de v
 **Simulación del circuito:**
 
 ```
-Practica2/MontajeFisico_Fotos
+Practica2/Simulacion_TinkerCAD
 ```
 ---
 
@@ -121,6 +121,7 @@ El código desarrollado en Arduino se encarga de:
 - Enviar los datos al puerto serial en formato CSV.
 
 El archivo correspondiente se encuentra en:
+
 ```
 Practica2/Practica2_G7_ArduinoIDE/Practica2_G7/Practica2_G7.ino
 ```
