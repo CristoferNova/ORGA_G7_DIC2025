@@ -32,7 +32,7 @@ Este tipo de sistemas es ampliamente utilizado en aplicaciones académicas e ind
 
 * **Qué mide:** temperatura (°C) y humedad relativa (%).
 * **Protocolos:** comunicación serial digital en línea única (librería DHT.h de Adafruit).
-* **Precisión / rango:** DHT11 (~0–50°C, ±2°C, 20–90% HR), DHT22 ofrece mayor precisión.
+* **Precisión / rango:** DHT11 (0–50°C, ±2°C, 20–90% HR), DHT22 ofrece mayor precisión.
 * **Notas de uso:** evitar lecturas demasiado frecuentes (usar >= 1 s entre lecturas), validar con `isnan()`.
 
 ### Fotoresistencia (LDR)
@@ -127,7 +127,7 @@ Practica2/Practica2_G7_ArduinoIDE
 ---
 
 ### 4.4 Dashboard en Processing
-Se desarrolló un dashboard en Processing que recibe los datos enviados por Arduino mediante el puerto serial y los presenta gráficamente en tiempo real, permitiendo una interpretación clara de las variables ambientales.
+Se desarrolló un dashboard en Processing que recibe los datos enviados por Arduino mediante el puerto serial y los presenta gráficamente en tiempo real, permitiendo una interpretación clara de las variables ambientales, siendo estos la humedad, la temperatura y el nivel de luz.
 
 **Capturas del dashboard y Processing:**
 
