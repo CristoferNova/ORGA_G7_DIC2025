@@ -148,7 +148,7 @@ Todas las evidencias del proyecto, incluyendo código fuente, imágenes del mont
 ---
 ---
 
-## 7.Tabla de componentes y presupuesto estimado (ejemplo)
+## 7.Tabla de componentes y presupuesto estimado:
 
 | Componente           | Cantidad | Precio estimado (GTQ) | 
 | -------------------- | -------: | --------------------: | 
