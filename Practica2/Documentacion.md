@@ -96,7 +96,11 @@ El montaje físico del sistema se realizó utilizando una protoboard, un Arduino
 
 **Evidencias del montaje físico:**
 
+Practica2/MontajeFisico_Fotos
 
+```
+Practica2/MontajeFisico_Fotos
+```
 ---
 
 ### 4.2 Simulación en TinkerCAD
@@ -104,8 +108,9 @@ Antes del montaje físico, el circuito fue simulado en TinkerCAD con el fin de v
 
 **Simulación del circuito:**
 
-![Simulación TinkerCAD](Practica2/Simulacion_TinkerCAD/Circuito_Practica2.png)
-
+```
+Practica2/MontajeFisico_Fotos
+```
 ---
 
 ### 4.3 Desarrollo del código en Arduino
