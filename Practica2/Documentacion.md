@@ -13,7 +13,8 @@
 * Saúl Andrés Monroy Marroquín Carne: 2472832662001
 * Jose Gustavo Alvarez Sequen Carne: 2472540102001
 
-**Profesor:** Nombre del Catedrático
+**Profesor:** 
+* Dilan Conaher Suy Miranda
 
 **Fecha:** 16 de diciembre de 2025
 
