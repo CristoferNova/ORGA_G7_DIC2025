@@ -134,7 +134,7 @@ Se desarrolló un dashboard en Processing que recibe los datos enviados por Ardu
 **Capturas del dashboard y Processing:**
 
 ```
-Practica2/Practica2_G7_ArduinoIDE
+Practica2/ProcessingProyecto_Fotos
 ```
 
 ---
