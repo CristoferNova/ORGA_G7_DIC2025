@@ -154,13 +154,13 @@ Todas las evidencias del proyecto, incluyendo código fuente, imágenes del mont
 | -------------------- | -------: | --------------------: | 
 | Arduino mega         |        1 |                250.00 |              
 | DHT11                |        1 |                 30.00 |              
-| LDR (GL5528)         |        1 |                 10.00 |                                                
+| LDR (GL5528)         |        1 |                  5.00 |                                                
 | Resistencias 220Ω    |        3 |                  1.50 |                                         
 | Resistencia 10kΩ     |        1 |                  0.80 |                                                
 | LEDs (RGB separados) |        3 |                  3.00 |                                                
 | Buzzer piezo         |        1 |                  8.00 |                                                
 | Protoboard + cable UTP|       1 |                 60.00 |                                                
-| **Total (estimado)** |          |            **363.30** |                                               
+| **Total (estimado)** |          |            **358.30** |                                               
 
 ---
 
