@@ -8,10 +8,10 @@
 
 **Integrantes:**
 
-* Nombre 1 — Carné / Rol (Circuito físico)
-* Nombre 2 — Carné / Rol (Código Arduino)
-* Nombre 3 — Carné / Rol (Processing / Dashboard)
-* Nombre 4 — Carné / Rol (Documentación / Video)
+* Cristofer Eduardo Nova Aguirre Carne: 2842042262204
+* Cristopher Alberto León España Carne: 2471454672001
+* Saúl Andrés Monroy Marroquín Carne: 2472832662001
+* Jose Gustavo Alvarez Sequen Carne: 2472540102001
 
 **Profesor:** Nombre del Catedrático
 
