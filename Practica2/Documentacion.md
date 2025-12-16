@@ -92,7 +92,7 @@ Este tipo de sistemas es ampliamente utilizado en aplicaciones académicas e ind
 * Buzzer -> D11
 
 ### 4.1 Montaje físico
-El montaje físico del sistema se realizó utilizando una protoboard, un Arduino, sensores y actuadores. Se conectó el sensor DHT para medir temperatura y humedad, una LDR para la medición de luz, LEDs indicadores y un buzzer para alertas.
+El montaje físico del sistema se realizó utilizando una protoboard, un Arduino, sensores y actuadores. Se conectó el sensor DHT11 para medir temperatura y humedad, una fotoresistencia LDR para la medición de luz, LEDs indicadores y un buzzer para alertas.
 
 **Evidencias del montaje físico:**
 
