@@ -186,7 +186,7 @@ Todas las evidencias del proyecto, incluyendo código fuente, imágenes del mont
 
 ---
 
-## 10.Bibliografía (APA)
+## 10.Bibliografía
 
 * Banzi, M., & Shiloh, M. (2014). *Getting Started with Arduino* (3ra ed.). O'Reilly Media.
 * Monk, S. (2016). *Programming Arduino: Getting Started with Sketches* (2da ed.). McGraw-Hill Education.
@@ -196,7 +196,9 @@ Todas las evidencias del proyecto, incluyendo código fuente, imágenes del mont
 
 ---
 
+---
 
+## 11.Anexos
 
-
+---
 
