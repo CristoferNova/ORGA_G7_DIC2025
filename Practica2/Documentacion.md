@@ -43,7 +43,7 @@ Este tipo de sistemas es ampliamente utilizado en aplicaciones académicas e ind
 
 ### Arduino y ADC
 
-* Microcontrolador: ATmega328P (Arduino Uno/Nano).
+* Microcontrolador: Arduino Mega.
 * ADC: 10 bits, referencia 5V por defecto.
 * Pines de salida digitales para LEDs y buzzer; usar resistencias limitadoras para LEDs.
 
