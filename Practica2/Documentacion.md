@@ -85,7 +85,7 @@ Este tipo de sistemas es ampliamente utilizado en aplicaciones académicas e ind
 * LDR (GL5528 recomendado)
 * 3 × LEDs (verde, amarillo, rojo) + resistencias 220 Ω
 * Buzzer piezoeléctrico (activo o pasivo)
-* Protoboard y cables jumper
+* Protoboard y cable UTP
 * Resistencia fija 10 kΩ (divisor LDR)
 * Cable USB A-B
 
