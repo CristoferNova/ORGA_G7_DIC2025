@@ -1,8 +1,8 @@
 # SISTEMA DE MONITOREO AMBIENTAL
 
-**Universidad San Carlos de Guatemala — Facultad de Ingeniería**
+**Universidad San Carlos de Guatemala — Facultad de Ingeniería — Ingeniería en Ciencias y Sistemas**
 
-**Asignatura:** Ingeniería en Ciencias y Sistemas
+**Asignatura:** Organización Computacional
 
 **Práctica 2:** SISTEMA DE MONITOREO AMBIENTAL
 
