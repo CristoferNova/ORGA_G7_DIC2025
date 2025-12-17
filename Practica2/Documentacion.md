@@ -73,7 +73,7 @@ Este tipo de sistemas es ampliamente utilizado en aplicaciones académicas e ind
 ## 4. Desarrollo del sistema
 ### Lista de componentes (físicos)
 
-* Arduino Uno R3 o Nano
+* Arduino Mega 
 * Sensor DHT11 o DHT22
 * LDR (GL5528 recomendado)
 * 3 × LEDs (verde, amarillo, rojo) + resistencias 220 Ω
